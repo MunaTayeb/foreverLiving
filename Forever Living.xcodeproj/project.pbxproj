@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB41CC01F4C9509000EFC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41CBF1F4C9509000EFC2B /* AppDelegate.swift */; };
+		6EB41CC21F4C9509000EFC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41CC11F4C9509000EFC2B /* ViewController.swift */; };
+		6EB41CC51F4C9509000EFC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB41CC31F4C9509000EFC2B /* Main.storyboard */; };
+		6EB41CC71F4C9509000EFC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB41CC61F4C9509000EFC2B /* Assets.xcassets */; };
+		6EB41CCA1F4C9509000EFC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB41CC81F4C9509000EFC2B /* LaunchScreen.storyboard */; };
+		6EB41CD51F4C9509000EFC2B /* Forever_LivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41CD41F4C9509000EFC2B /* Forever_LivingTests.swift */; };
+		6EB41CE01F4C9509000EFC2B /* Forever_LivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB41CDF1F4C9509000EFC2B /* Forever_LivingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB41CD11F4C9509000EFC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB41CB41F4C9508000EFC2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB41CBB1F4C9508000EFC2B;
+			remoteInfo = "Forever Living";
+		};
+		6EB41CDC1F4C9509000EFC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB41CB41F4C9508000EFC2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB41CBB1F4C9508000EFC2B;
+			remoteInfo = "Forever Living";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EB41CBC1F4C9509000EFC2B /* Forever Living.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forever Living.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB41CBF1F4C9509000EFC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB41CC11F4C9509000EFC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EB41CC41F4C9509000EFC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB41CC61F4C9509000EFC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB41CC91F4C9509000EFC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB41CCB1F4C9509000EFC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB41CD01F4C9509000EFC2B /* Forever LivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forever LivingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB41CD41F4C9509000EFC2B /* Forever_LivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forever_LivingTests.swift; sourceTree = "<group>"; };
+		6EB41CD61F4C9509000EFC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB41CDB1F4C9509000EFC2B /* Forever LivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forever LivingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB41CDF1F4C9509000EFC2B /* Forever_LivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forever_LivingUITests.swift; sourceTree = "<group>"; };
+		6EB41CE11F4C9509000EFC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB41CB91F4C9508000EFC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CCD1F4C9509000EFC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CD81F4C9509000EFC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB41CB31F4C9508000EFC2B = {
+			isa = PBXGroup;
+			children = (
+				6EB41CBE1F4C9509000EFC2B /* Forever Living */,
+				6EB41CD31F4C9509000EFC2B /* Forever LivingTests */,
+				6EB41CDE1F4C9509000EFC2B /* Forever LivingUITests */,
+				6EB41CBD1F4C9509000EFC2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB41CBD1F4C9509000EFC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41CBC1F4C9509000EFC2B /* Forever Living.app */,
+				6EB41CD01F4C9509000EFC2B /* Forever LivingTests.xctest */,
+				6EB41CDB1F4C9509000EFC2B /* Forever LivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB41CBE1F4C9509000EFC2B /* Forever Living */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41CBF1F4C9509000EFC2B /* AppDelegate.swift */,
+				6EB41CC11F4C9509000EFC2B /* ViewController.swift */,
+				6EB41CC31F4C9509000EFC2B /* Main.storyboard */,
+				6EB41CC61F4C9509000EFC2B /* Assets.xcassets */,
+				6EB41CC81F4C9509000EFC2B /* LaunchScreen.storyboard */,
+				6EB41CCB1F4C9509000EFC2B /* Info.plist */,
+			);
+			path = "Forever Living";
+			sourceTree = "<group>";
+		};
+		6EB41CD31F4C9509000EFC2B /* Forever LivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41CD41F4C9509000EFC2B /* Forever_LivingTests.swift */,
+				6EB41CD61F4C9509000EFC2B /* Info.plist */,
+			);
+			path = "Forever LivingTests";
+			sourceTree = "<group>";
+		};
+		6EB41CDE1F4C9509000EFC2B /* Forever LivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB41CDF1F4C9509000EFC2B /* Forever_LivingUITests.swift */,
+				6EB41CE11F4C9509000EFC2B /* Info.plist */,
+			);
+			path = "Forever LivingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB41CBB1F4C9508000EFC2B /* Forever Living */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB41CE41F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever Living" */;
+			buildPhases = (
+				6EB41CB81F4C9508000EFC2B /* Sources */,
+				6EB41CB91F4C9508000EFC2B /* Frameworks */,
+				6EB41CBA1F4C9508000EFC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forever Living";
+			productName = "Forever Living";
+			productReference = 6EB41CBC1F4C9509000EFC2B /* Forever Living.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB41CCF1F4C9509000EFC2B /* Forever LivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB41CE71F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever LivingTests" */;
+			buildPhases = (
+				6EB41CCC1F4C9509000EFC2B /* Sources */,
+				6EB41CCD1F4C9509000EFC2B /* Frameworks */,
+				6EB41CCE1F4C9509000EFC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB41CD21F4C9509000EFC2B /* PBXTargetDependency */,
+			);
+			name = "Forever LivingTests";
+			productName = "Forever LivingTests";
+			productReference = 6EB41CD01F4C9509000EFC2B /* Forever LivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB41CDA1F4C9509000EFC2B /* Forever LivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB41CEA1F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever LivingUITests" */;
+			buildPhases = (
+				6EB41CD71F4C9509000EFC2B /* Sources */,
+				6EB41CD81F4C9509000EFC2B /* Frameworks */,
+				6EB41CD91F4C9509000EFC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB41CDD1F4C9509000EFC2B /* PBXTargetDependency */,
+			);
+			name = "Forever LivingUITests";
+			productName = "Forever LivingUITests";
+			productReference = 6EB41CDB1F4C9509000EFC2B /* Forever LivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB41CB41F4C9508000EFC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Free Developer";
+				TargetAttributes = {
+					6EB41CBB1F4C9508000EFC2B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+					};
+					6EB41CCF1F4C9509000EFC2B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EB41CBB1F4C9508000EFC2B;
+					};
+					6EB41CDA1F4C9509000EFC2B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EB41CBB1F4C9508000EFC2B;
+					};
+				};
+			};
+			buildConfigurationList = 6EB41CB71F4C9508000EFC2B /* Build configuration list for PBXProject "Forever Living" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB41CB31F4C9508000EFC2B;
+			productRefGroup = 6EB41CBD1F4C9509000EFC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB41CBB1F4C9508000EFC2B /* Forever Living */,
+				6EB41CCF1F4C9509000EFC2B /* Forever LivingTests */,
+				6EB41CDA1F4C9509000EFC2B /* Forever LivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB41CBA1F4C9508000EFC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB41CCA1F4C9509000EFC2B /* LaunchScreen.storyboard in Resources */,
+				6EB41CC71F4C9509000EFC2B /* Assets.xcassets in Resources */,
+				6EB41CC51F4C9509000EFC2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CCE1F4C9509000EFC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CD91F4C9509000EFC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB41CB81F4C9508000EFC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB41CC21F4C9509000EFC2B /* ViewController.swift in Sources */,
+				6EB41CC01F4C9509000EFC2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CCC1F4C9509000EFC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB41CD51F4C9509000EFC2B /* Forever_LivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB41CD71F4C9509000EFC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB41CE01F4C9509000EFC2B /* Forever_LivingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB41CD21F4C9509000EFC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB41CBB1F4C9508000EFC2B /* Forever Living */;
+			targetProxy = 6EB41CD11F4C9509000EFC2B /* PBXContainerItemProxy */;
+		};
+		6EB41CDD1F4C9509000EFC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB41CBB1F4C9508000EFC2B /* Forever Living */;
+			targetProxy = 6EB41CDC1F4C9509000EFC2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB41CC31F4C9509000EFC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB41CC41F4C9509000EFC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB41CC81F4C9509000EFC2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB41CC91F4C9509000EFC2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB41CE21F4C9509000EFC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB41CE31F4C9509000EFC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB41CE51F4C9509000EFC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever Living/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-Living";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6EB41CE61F4C9509000EFC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever Living/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-Living";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6EB41CE81F4C9509000EFC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever LivingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-LivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forever Living.app/Forever Living";
+			};
+			name = Debug;
+		};
+		6EB41CE91F4C9509000EFC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever LivingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-LivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forever Living.app/Forever Living";
+			};
+			name = Release;
+		};
+		6EB41CEB1F4C9509000EFC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever LivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-LivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Forever Living";
+			};
+			name = Debug;
+		};
+		6EB41CEC1F4C9509000EFC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Forever LivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Developer.Forever-LivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Forever Living";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB41CB71F4C9508000EFC2B /* Build configuration list for PBXProject "Forever Living" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB41CE21F4C9509000EFC2B /* Debug */,
+				6EB41CE31F4C9509000EFC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB41CE41F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever Living" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB41CE51F4C9509000EFC2B /* Debug */,
+				6EB41CE61F4C9509000EFC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB41CE71F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever LivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB41CE81F4C9509000EFC2B /* Debug */,
+				6EB41CE91F4C9509000EFC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB41CEA1F4C9509000EFC2B /* Build configuration list for PBXNativeTarget "Forever LivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB41CEB1F4C9509000EFC2B /* Debug */,
+				6EB41CEC1F4C9509000EFC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB41CB41F4C9508000EFC2B /* Project object */;
+}
